@@ -66,7 +66,7 @@
 
 3. **Load Extension**:
    - Click **Load unpacked**.
-   - Select the extracted `IBR_Chess_Engine` folder.
+   - Select the extracted `IBRChessEngine` folder.
 
 4. **Play on Chess.com**:
    - Open any game, puzzle, or analysis board on [Chess.com](https://www.chess.com).
