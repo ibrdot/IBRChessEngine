@@ -1,11 +1,11 @@
 <div align="center">
 
-# ♟️ IBR CHESS ENGINE
+# ♟️ IBR CHESS ENGINE v6.0.0
 ### *Real-Time Stockfish 18 NNUE Engine for Chess.com*
 
 <br/>
 
-[![Version](https://img.shields.io/badge/Version-5.0.0-00ff87?style=for-the-badge&logo=googlechrome&logoColor=white)](https://t.me/ibrprojects)
+[![Version](https://img.shields.io/badge/Version-6.0.0-00ff87?style=for-the-badge&logo=googlechrome&logoColor=white)](https://t.me/ibrprojects)
 [![Engine](https://img.shields.io/badge/Stockfish-18%20NNUE-black?style=for-the-badge&logo=lichess&logoColor=white)](https://github.com/ibrdot/IBRChessEngine)
 [![Platform](https://img.shields.io/badge/Platform-Chess.com-00e5ff?style=for-the-badge&logo=googlechrome&logoColor=white)](https://github.com/ibrdot/IBRChessEngine)
 [![Telegram](https://img.shields.io/badge/Telegram-@ibrprojects-229ED9?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/ibrprojects)
@@ -14,26 +14,27 @@
 <br/>
 
 **Experience Grandmaster-level position evaluation with zero local CPU load.**  
-*Vector move arrows, dynamic quality classifier, promotion coach, and pure-black stealth aesthetics.*
+*Real-time vector move arrows, dynamic quality classifier, promotion coach, and pure-black stealth aesthetics.*
 
 <br/>
 
-[📥 **Download Extension v5.0.0**](https://t.me/ibrprojects/4) • [📢 **Join Telegram Community**](https://t.me/ibrprojects) • [⭐ **Star on GitHub**](https://github.com/ibrdot/IBRChessEngine)
+[📥 **Download Extension v6.0.0**](https://t.me/ibrprojects/4) • [📢 **Join Telegram Community**](https://t.me/ibrprojects) • [⭐ **Star on GitHub**](https://github.com/ibrdot/IBRChessEngine)
 
 ---
 
 </div>
 
-## ⚡ Highlights
+## ⚡ Highlights & What's New in v6.0.0
 
 | Feature | Description |
 | :--- | :--- |
-| 🎯 **Pure Black Vector Arrows** | Crisp, anti-flicker directional arrows drawn right on the chessboard. |
-| 🚀 **Stockfish 18 NNUE** | Cloud-powered calculation up to Depth 18 with 0ms visual latency. |
-| 👑 **Smart Promotion Advisor** | Evaluates all 4 promotion branches to prevent accidental stalemates. |
-| 📊 **Dynamic Move Classifier** | Automatically grades moves into *Best, Good, Inaccuracy, Mistake, Blunder*. |
+| 🎯 **Pure Black Vector Arrows** | High-contrast solid black vector arrows drawn with zero visual flicker. |
+| 🔄 **Accurate Real-Time Turn Detection** | 100% accurate player turn synchronization based on physical board highlights. |
+| 🚀 **Stockfish 18 NNUE Cloud Engine** | Ultra-fast remote calculation up to Depth 18 with 0ms visual delay. |
+| 👑 **Smart Promotion Advisor** | Evaluates all 4 promotion branches to prevent accidental stalemates and find forced mates. |
+| 📊 **Dynamic Move Classifier** | Real-time move grading (*Best, Good, Inaccuracy, Mistake, Blunder*). |
 | 📈 **Live Evaluation & Win Rate** | Centipawn eval bar and real-time win probability percentage curve. |
-| 🕶️ **Zero-Trace Stealth Mode** | Instant overlay toggle via shortcut with no visual trace. |
+| 🕶️ **Zero-Trace Stealth Mode** | Instant overlay toggle via <kbd>Q</kbd> shortcut with zero traces. |
 | 📥 **1-Click PGN Export** | Export your full game notation with embedded Stockfish eval tags. |
 
 ---
@@ -95,7 +96,7 @@ Join our official community for fast updates, bug fixes, and feature requests:
 <div align="center">
 
 [![Telegram Channel](https://img.shields.io/badge/Telegram_Channel-@ibrprojects-229ED9?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/ibrprojects)
-[![Direct Download](https://img.shields.io/badge/Download_ZIP-v5.0.0-00ff87?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/ibrprojects/4)
+[![Direct Download](https://img.shields.io/badge/Download_ZIP-v6.0.0-00ff87?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/ibrprojects/4)
 [![GitHub Repository](https://img.shields.io/badge/GitHub_Repo-ibrdot/IBRChessEngine-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ibrdot/IBRChessEngine)
 
 </div>

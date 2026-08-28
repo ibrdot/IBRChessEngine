@@ -7,32 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [6.0.0] - 2026-08-28 (Major Release) 🚀
+
+### 🌟 Major Improvements & Fixes
+- **🔥 Fixed Turn Inversion Bug**: Completely resolved the inverted move detection where user's turn showed opponent's arrows and vice-versa. Board highlights (`from` / `to` move pair) are now the primary physical truth signal.
+- **⚡ Anti-Flicker Architecture**: Eliminated arrow flickering and continuous re-renders by locking drawn paths for the current board position and debouncing DOM mutations.
+- **🎯 Pure Black Vector Arrows (Default)**: Set high-contrast solid black vector arrows (`#000000` with sharp outline and drop shadow) as the default style across all chess themes.
+- **🚀 Real-Time Low-Latency Engine Stream**: Enhanced dual WebSocket & HTTP fallback engine with intelligent message dispatch for sub-millisecond arrow response on Chess.com.
+- **👑 Smart Promotion & Stalemate Guard**: Refined promotion advisor to prevent underpromotion traps and detect instant forced checkmates.
+- **🕶️ Zero-Trace Stealth Hotkey**: Toggle stealth visibility in 0ms with the <kbd>Q</kbd> key.
+- **🎨 Pure Black Minimalist UI**: Removed distracting icons and third-party watermarks for an ultra-clean experience.
+
+---
+
 ## [5.0.0] - 2026-08-28
 
 ### 🚀 Added
 - **Stockfish 18 NNUE Cloud Engine Integration**: Real-time position calculation with deep evaluation up to Depth 18.
-- **Pure Black Vector Move Arrows**: Crisp, high-contrast solid vector arrows rendered directly on Chess.com boards with 0ms visual delay.
-- **Smart Promotion Advisor**: Automatic evaluation of all four promotion choices (Queen, Rook, Bishop, Knight) with stalemate warning alerts.
 - **Dynamic Move Quality Classifier**: Categorizes played moves into Best, Good, Inaccuracy, Mistake, and Blunder in real time.
 - **Interactive Evaluation Curve & Win Probability**: Live sparkline chart and centipawn eval meter.
 - **1-Click PGN Export**: Export full game notation with Stockfish evaluation tags.
-- **Instant Stealth Mode (`Q` key)**: Immediate toggle to hide/show all overlays and UI elements.
-- **Theme & Arrow Style Customization**: Added Pure Black, Emerald, Electric Blue, Cyber Purple, and Gold themes.
-
-### 🛠️ Fixed
-- **WebSocket Streaming Stability**: Fixed connection lifecycle and message dispatch to prevent stalled calculation.
-- **Instant HTTP Fallback**: Seamless fallback mechanism to ensure uninterrupted analysis if WebSocket disconnects.
-- **Chess.com Board & Turn Detection**: Fixed piece coordinate extraction and 0-indexed ply turn detection across all board variants (Play, Analysis, Puzzles, Computer).
-- **DOM Overlay Cleanup**: Fixed SVG overlay persistence and sizing during responsive window resizing and board flip.
-
----
-
-## [4.0.0] - 2026-06-15
-
-### 🚀 Added
-- Support for modern Manifest V3 Chrome Extension architecture.
-- Real-time Stockfish cloud analysis stream.
-- Keyboard shortcuts (<kbd>Q</kbd>, <kbd>E</kbd>, <kbd>R</kbd>, <kbd>C</kbd>, <kbd>M</kbd>, <kbd>P</kbd>).
 
 ---
 
