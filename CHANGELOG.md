@@ -7,16 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-## [6.0.0] - 2026-08-28 (Major Release) 🚀
+## [6.5.0] - 2026-08-31 (Major Update) 🚀
 
-### 🌟 Major Improvements & Fixes
-- **🔥 Fixed Turn Inversion Bug**: Completely resolved the inverted move detection where user's turn showed opponent's arrows and vice-versa. Board highlights (`from` / `to` move pair) are now the primary physical truth signal.
-- **⚡ Anti-Flicker Architecture**: Eliminated arrow flickering and continuous re-renders by locking drawn paths for the current board position and debouncing DOM mutations.
-- **🎯 Pure Black Vector Arrows (Default)**: Set high-contrast solid black vector arrows (`#000000` with sharp outline and drop shadow) as the default style across all chess themes.
-- **🚀 Real-Time Low-Latency Engine Stream**: Enhanced dual WebSocket & HTTP fallback engine with intelligent message dispatch for sub-millisecond arrow response on Chess.com.
+### 🌟 Major Improvements & Enhancements
+- **⚡ 100% Pure Real-Time Calculation**: Direct live API streaming on every position. Never returns stale or outdated moves.
+- **🎯 Enhanced Move Accuracy**: Every board state is calculated fresh via real-time Stockfish 18 NNUE calculation.
+- **🔄 Fixed Turn Detection**: 100% accurate player turn synchronization based on physical board move highlights.
+- **⚡ Anti-Flicker Architecture**: Eliminated arrow flickering and continuous re-renders by locking drawn paths for the current board position.
+- **🎯 Pure Black Vector Arrows (Default)**: High-contrast solid black vector arrows (`#000000` with sharp outline and drop shadow) default across all boards.
 - **👑 Smart Promotion & Stalemate Guard**: Refined promotion advisor to prevent underpromotion traps and detect instant forced checkmates.
 - **🕶️ Zero-Trace Stealth Hotkey**: Toggle stealth visibility in 0ms with the <kbd>Q</kbd> key.
-- **🎨 Pure Black Minimalist UI**: Removed distracting icons and third-party watermarks for an ultra-clean experience.
+- **🎨 Pure Black Minimalist UI**: Clean, distraction-free interface with no external watermarks.
+
+---
+
+## [6.0.0] - 2026-08-28
+
+### 🚀 Added
+- Fixed turn inversion and arrow direction synchronization.
+- Anti-flicker SVG rendering system.
+- Solid black vector arrow preset.
 
 ---
 

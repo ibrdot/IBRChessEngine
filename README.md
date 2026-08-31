@@ -1,11 +1,11 @@
 <div align="center">
 
-# ♟️ IBR CHESS ENGINE v6.0.0
-### *Real-Time Stockfish 18 NNUE Engine for Chess.com*
+# ♟️ IBR CHESS ENGINE v6.5.0
+### *Pure Real-Time Stockfish 18 NNUE Engine for Chess.com*
 
 <br/>
 
-[![Version](https://img.shields.io/badge/Version-6.0.0-00ff87?style=for-the-badge&logo=googlechrome&logoColor=white)](https://t.me/ibrprojects)
+[![Version](https://img.shields.io/badge/Version-6.5.0-00ff87?style=for-the-badge&logo=googlechrome&logoColor=white)](https://t.me/ibrprojects)
 [![Engine](https://img.shields.io/badge/Stockfish-18%20NNUE-black?style=for-the-badge&logo=lichess&logoColor=white)](https://github.com/ibrdot/IBRChessEngine)
 [![Platform](https://img.shields.io/badge/Platform-Chess.com-00e5ff?style=for-the-badge&logo=googlechrome&logoColor=white)](https://github.com/ibrdot/IBRChessEngine)
 [![Telegram](https://img.shields.io/badge/Telegram-@ibrprojects-229ED9?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/ibrprojects)
@@ -13,29 +13,28 @@
 
 <br/>
 
-**Experience Grandmaster-level position evaluation with zero local CPU load.**  
-*Real-time vector move arrows, dynamic quality classifier, promotion coach, and pure-black stealth aesthetics.*
+**Experience Grandmaster-level live position evaluation with zero local CPU load.**  
+*100% real-time direct engine calculation, anti-flicker vector arrows, promotion coach, and pure-black stealth aesthetics.*
 
 <br/>
 
-[📥 **Download Extension v6.0.0**](https://t.me/ibrprojects/4) • [📢 **Join Telegram Community**](https://t.me/ibrprojects) • [⭐ **Star on GitHub**](https://github.com/ibrdot/IBRChessEngine)
+[📥 **Download Extension v6.5.0**](https://t.me/ibrprojects/4) • [📢 **Join Telegram Community**](https://t.me/ibrprojects) • [⭐ **Star on GitHub**](https://github.com/ibrdot/IBRChessEngine)
 
 ---
 
 </div>
 
-## ⚡ Highlights & What's New in v6.0.0
+## ⚡ Highlights & What's New in v6.5.0
 
 | Feature | Description |
 | :--- | :--- |
+| 🚀 **100% Pure Real-Time Calculation** | Direct live API streaming on every move with zero stale moves or delays. |
 | 🎯 **Pure Black Vector Arrows** | High-contrast solid black vector arrows drawn with zero visual flicker. |
 | 🔄 **Accurate Real-Time Turn Detection** | 100% accurate player turn synchronization based on physical board highlights. |
-| 🚀 **Stockfish 18 NNUE Cloud Engine** | Ultra-fast remote calculation up to Depth 18 with 0ms visual delay. |
+| ⚡ **Stockfish 18 NNUE Cloud Engine** | Ultra-fast remote calculation up to Depth 18 with 0ms visual delay. |
 | 👑 **Smart Promotion Advisor** | Evaluates all 4 promotion branches to prevent accidental stalemates and find forced mates. |
-| 📊 **Dynamic Move Classifier** | Real-time move grading (*Best, Good, Inaccuracy, Mistake, Blunder*). |
-| 📈 **Live Evaluation & Win Rate** | Centipawn eval bar and real-time win probability percentage curve. |
-| 🕶️ **Zero-Trace Stealth Mode** | Instant overlay toggle via <kbd>Q</kbd> shortcut with zero traces. |
-| 📥 **1-Click PGN Export** | Export your full game notation with embedded Stockfish eval tags. |
+| 📊 **Live Evaluation & Win Rate** | Real-time centipawn eval score and live win probability percentage. |
+| ⚡ **Live HUD & Eval Meters** | Real-time centipawn bar, win probability, and forced mate alerts. |
 
 ---
 
@@ -96,7 +95,7 @@ Join our official community for fast updates, bug fixes, and feature requests:
 <div align="center">
 
 [![Telegram Channel](https://img.shields.io/badge/Telegram_Channel-@ibrprojects-229ED9?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/ibrprojects)
-[![Direct Download](https://img.shields.io/badge/Download_ZIP-v6.0.0-00ff87?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/ibrprojects/4)
+[![Direct Download](https://img.shields.io/badge/Download_ZIP-v6.5.0-00ff87?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/ibrprojects/4)
 [![GitHub Repository](https://img.shields.io/badge/GitHub_Repo-ibrdot/IBRChessEngine-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ibrdot/IBRChessEngine)
 
 </div>
